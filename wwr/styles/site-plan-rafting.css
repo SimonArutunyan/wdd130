@@ -1,0 +1,26 @@
+nav {
+    background-color: aqua;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: blue;
+    padding: 20px; 
+}
+
+h1 {
+    color: aqua;
+}
+
+image {
+    width: 150px;
+    height: auto;
+    border: 1px solid aqua;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 10px;
+}
