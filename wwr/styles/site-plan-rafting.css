@@ -1,26 +1,61 @@
-nav {
-    background-color: aqua;
-    padding: 10px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
 
-nav a {
-    color: white;
-    display: blue;
-    padding: 20px; 
-}
+:root {
+    /* 07ade5-ff8811-152429-dff8eb-214e34 */
+    --primary-color: #07ade5;
+    --secondary-color: #ff8811;
+    --accent1-color: #dff8eb;
+    --accent2-color: #214e34;
+  
+    --heading-font: 'Wittgenstein', serif;
+    --paragraph-font: 'Roboto', sans-serif;
+  
+    --nav-background-color: #152429;
+    --nav-link-color: #dff8eb;
+    --nav-hover-link-color: #152429;
+    --nav-hover-background-color: #dff8ebX;
+  }
 
-h1 {
-    color: aqua;
-}
 
-image {
-    width: 150px;
-    height: auto;
-    border: 1px solid aqua;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
 
-p {
-    padding: 10px;
-}
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+
+  header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+  }
+
+  p {
+    padding: 25px;
+  }
+
+  nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+  
