@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    /* 07ade5-ff8811-152429-dff8eb-214e34 */
+    --primary-color: #07ade5;
+    --secondary-color: #ff8811;
+    --accent1-color: #dff8eb;
+    --accent2-color: #214e34;
+  
+    --heading-font: 'Wittgenstein', serif;
+    --paragraph-font: 'Roboto', sans-serif;
+  
+    --nav-background-color: #152429;
+    --nav-link-color: #dff8eb;
+    --nav-hover-link-color: #152429;
+    --nav-hover-background-color: #dff8ebX;
+  }
+
+  body {
+    font-family: var(--paragraph-font);
+  }
+
+  h1, h2, h3, h4, h5,h6 {
+    font-family: var(--heading-font);
+  }
+
+  .sociallinks img {
+    width: 60px;
+  }
