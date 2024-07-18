@@ -13,7 +13,7 @@
   --nav-background-color: #152429;
   --nav-link-color: #dff8eb;
   --nav-hover-link-color: #152429;
-  --nav-hover-background-color: #dff8ebX;
+  --nav-hover-background-color: #dff8eb;
 }
 
 body {
@@ -58,9 +58,9 @@ footer {
 }
 
 .hero img {
-display: block;
-width: 100%;
-height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .hero article {
@@ -76,4 +76,81 @@ height: auto;
 .hero article img {
   width: 200px;
   float: right;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+  align-items: center;
+}
+
+header img {
+  max-width: 150px;
+  ;
+}
+
+nav {
+  display: flex;
+  flex: 1 1 100%;
+  justify-content: space-around;
+  background: var(--nav-background-color);
+}
+
+nav a {
+  text-decoration: none;
+  padding: 1em;
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  background-color: var(--nav-hover-background-color);
+  color: var(--nav-hover-link-color);
+}
+
+.history {
+ display: grid;
+ grid-template-columns: 1fr 300px 1fr;
+}
+
+.history img {
+ grid-column: 2;
+ grid-row: 2;
+ max-width: 250px;
+ justify-self: center;
+}
+.history h2 {
+  width: 100%;
+  grid-row: 1;
+  grid-column: 1/4;
+  text-align: center;
+}
+
+.adventure {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.adventuer h2  {
+  width: 100%;
+  text-align: center;
+}
+.adventuer figure {
+  max-width: 225px;
+  display: flex;
+  flex-direction: column;
+}
+.adventure img {
+  max-width: 225px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--nav-background-color);
+  color: #fff;
+  padding: 1em;
+
+
 }
