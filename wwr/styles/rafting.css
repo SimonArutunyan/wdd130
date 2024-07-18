@@ -130,17 +130,17 @@ nav a:hover {
   flex-wrap: wrap;
 }
 
-.adventuer h2  {
+.adventure h2  {
   width: 100%;
   text-align: center;
 }
-.adventuer figure {
-  max-width: 225px;
+.adventure figure {
+  max-width: 200px;
   display: flex;
   flex-direction: column;
 }
 .adventure img {
-  max-width: 225px;
+  max-width: 200px;
   display: flex;
   flex-direction: column;
 }
