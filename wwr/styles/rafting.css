@@ -151,6 +151,16 @@ footer {
   background-color: var(--nav-background-color);
   color: #fff;
   padding: 1em;
+}
 
+.sociallinks {
+  display: inline-block;
+  flex: 0 0 auto;
+}
 
+.sociallinks a {
+  text-decoration: none ;
+}
+.sociallinks a:hover {
+  background-color: unset;
 }
