@@ -6,13 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us | WDD 130</title>
     <link rel="stylesheet" href="styles/rafting.css">
-    <meta name="description" content="">
+    <meta name="description" content="Taking the plunge, one rapid at a time. ...
+    Living for the rush of river rafting! ...
+    Wild, wet, and absolutely worth it! ...
+    Rafting through life with a big smile. ...
+    Conquering fears, one rapid at a time. ...
+    River rafting: where adrenaline and fun collide. ...
+    River therapy at its finest.">
     <meta name="author" content="Arutunyan Simon">
 </head>
 
 <body>
     <header>
-        <img src="images/logo.jpg" alt="Logo">
+        <img src="images/logo.jpg" alt="Logo"> 
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -22,9 +28,36 @@
     </header>
 
     <main>
-       
-    </main>
+       Moscow, st. Komsomolskaya 5/3
+       +79528546119
+       Simon.LDS@mail.ru
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2243.885467764709!2d37.65817699999999!3d55.777861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a78c753caab%3A0x5635b1e66168837c!2z0JrQvtC80YHQvtC80L7Qu9GM0YHQutCw0Y8g0L_Quy4sIDUg0YHRgtGA0L7QtdC90LjQtSAzLCDQnNC-0YHQutCy0LAsIDEwNzE0MA!5e0!3m2!1sru!2sru!4v1721681718684!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+    </main>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+      
+        <label>Purpose of Message:</label><br>
+        <input type="radio" id="general" name="purpose" value="General Inquiry">
+        <label for="general">General Inquiry</label><br>
+        <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+        <label for="reservation">Reservation Question</label><br>
+        <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+        <label for="suggestion">Website Suggestion</label><br><br>
+      
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+      
+        <input type="checkbox" id="newsletter" name="newsletter" value="Subscribe">
+        <label for="newsletter">Please subscribe me to the monthly newsletter</label><br><br>
+      
+        <input type="submit" value="Submit">
+      </form>
+      
     <footer>
         <p>&copy;2024 | Rafting Company | Simon Arutunyan</p>
         <nav class="sociallinks">
