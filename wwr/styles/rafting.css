@@ -164,3 +164,7 @@ footer {
 .sociallinks a:hover {
   background-color: unset;
 }
+
+.map {
+  border: none;
+}
